@@ -10,6 +10,13 @@ namespace LinqTutorial
     {
         static void Main(string[] args)
         {
+            ExampleUsingQuerySyntax.Execute();
+            Console.WriteLine();
+            ExampleUsingMethodSyntax.Execute();
+            Console.WriteLine();
+            ExampleUsingMixedSyntax.Execute();
+
+            Console.ReadKey();
         }
     }
 }
