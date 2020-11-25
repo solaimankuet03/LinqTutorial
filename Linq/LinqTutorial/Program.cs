@@ -16,6 +16,12 @@ namespace LinqTutorial
             Console.WriteLine();
             ExampleUsingMixedSyntax.Execute();
 
+            string sentence = "Welcome to Dotnet Tutorials";
+
+            int wordCount = sentence.GetWordCount();
+            Console.WriteLine($"Count : {wordCount}");
+            Console.ReadKey();
+
             Console.ReadKey();
         }
     }

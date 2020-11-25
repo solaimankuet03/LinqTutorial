@@ -60,6 +60,7 @@
     <Compile Include="ExampleUsingMethodSyntax.cs" />
     <Compile Include="ExampleUsingMixedSyntax.cs" />
     <Compile Include="ExampleUsingQuerySyntax.cs" />
+    <Compile Include="ExtensionHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
